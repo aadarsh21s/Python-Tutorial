@@ -11,4 +11,5 @@ elif 12 <= current_hour < 17:
     print("Good afternoon! The current time is:", time.strftime("%H:%M:%S", local_time))
 else:
     print("Good evening! The current time is:", time.strftime("%H:%M:%S", local_time))
+
     

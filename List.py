@@ -70,3 +70,9 @@ print(lst8)
 lst9 = [1, 2, 3, 4, 5]
 print(lst9.index(3))  # Finding the index of an element in the list
 
+#To copy a list, we can use the copy() method or the list() constructor.
+lst10 = [1, 2, 3, 4, 5]
+lst11 = lst10.copy()  # Copying a list using the copy() method
+print(lst11)
+lst12 = list(lst10)  # Copying a list using the list() constructor
+print(lst12)
