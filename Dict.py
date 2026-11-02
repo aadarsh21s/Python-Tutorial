@@ -53,3 +53,6 @@ dicto2 = {"b": 3, "c": 4}
 dicto1.update(dicto2)
 print(dicto1)  # Output: {'a': 1, 'b': 3, 'c': 4}   
 
+#del statement is used to delete the entire dictionary. After using del, the dictionary will no longer exist.
+del dicto2["b"]  # This will delete the key "b" from dicto2
+del dicto2  # This will delete the entire dicto2 dictionary
