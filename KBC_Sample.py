@@ -3,7 +3,7 @@ questions = [["What is the full form of AI?", "Artificial Intelligence", "Artic 
               ["Which is the first programming language?", "C", "C++", "Python", "Java", None, 1],
               ["Which command is used to push in git?", "git update", "git upload", "git push", "git pull", None, 3],
               ["Which language is to create .net", "c", "c++", "C programming", "c#", None, 4],
-              ["Which is the first programming language?", "C", "C++", "Python", "Java", None, 1],
+              ["Which command is used to print in python?", "print()", "printf()", "cout", "System.out.println()", None, 1],
               ["Which command is used to commit in git?", "git commit", "git push", "git pull", "git update", None, 1],
               ["Which programming language is used to create android apps?", "Java", "Python", "C++", "Ruby", None, 1]]
 
@@ -18,7 +18,7 @@ for i in range(0, len(questions)):
     
     answer = int(input("Enter your answer (1-4): "))
     
-    if answer == questions[i][6]:
+    if answer == questions[i][8]:
         print(f"Correct! You have won Rs.{levels[i]}.\n")
         if i == 2:
             money_won = 5000
